@@ -8,6 +8,8 @@ public class Arac {
 		// TODO Auto-generated constructor stub
 	}
 
+	//degiskene herkesin direk ulasmamasi icin (tekerlekSayisi) get ve set fonksiyonlari yazilir.
+	//bu durumda degiskeni hemen degistiremiyorsun, set fonksiyonu icerisinde bir kontrol koyabilirsin.
 	public void setTekerlekSayisi(int tekerlekSayisi) {
 		this.tekerlekSayisi = tekerlekSayisi;
 	}
