@@ -27,13 +27,13 @@ public class Runner1 {
 		
 		int sayi;
 
-		System.out.println("Liste 1:");
+		System.out.print("Liste 1:");
 		for(int i=0;i<liste1.size();i++)
 		{
 			System.out.print(liste1.get(i)+" ");
 		}
 		System.out.println();
-		System.out.println("Liste 2:");
+		System.out.print("Liste 2:");
 
 		for(int i=0;i<liste1.size();i++)
 		{
@@ -47,13 +47,13 @@ public class Runner1 {
 			liste2.set(liste1.size()-i-1, sayi);
 		}
 		
-		System.out.println("Liste 1:");
+		System.out.print("Liste 1:");
 		for(int i=0;i<liste1.size();i++)
 		{
 			System.out.print(liste1.get(i)+" ");
 		}
 		System.out.println();
-		System.out.println("Liste 2:");
+		System.out.print("Liste 2:");
 
 		for(int i=0;i<liste1.size();i++)
 		{
